@@ -3,7 +3,7 @@
 
 <head>
   <%- include("./partials/head") %>
-    <title>AddBlog Page</title>
+    <title>AddTask Page</title>
     <link href="../uploads/style.css" rel="stylesheet">
 </head>
 
@@ -12,14 +12,14 @@
 
     <div class="container mt-5 pt-5 addDataFormMearginTop" style="min-height: 74.5vh;">
       <form action="/addData" method="post" enctype="multipart/form-data" id="form">
-        <h1>Add Blog</h1>
+        <h1>Add Task</h1>
         <div class="mb-3">
-          <label for="title" class="form-label">Blog_Title</label>
+          <label for="title" class="form-label">Task_Title</label>
           <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
 
         </div>
         <div class="mb-3">
-          <label for="blogerName" class="form-label">BlogerName</label>
+          <label for="blogerName" class="form-label">TaskMakerName</label>
           <input type="text" class="form-control" id="blogerName" name="blogerName">
         </div>
 
